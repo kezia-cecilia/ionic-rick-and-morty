@@ -1,0 +1,29 @@
+.new-background-color {
+    --background: #FAFD7CFF;
+}
+
+h1 {
+    font-size: 28px;
+    color: #41b4c9;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos p{
+    font-size: 20px;
+    margin: 0 30px;
+    line-height: 26px;
+    color: black;
+}
+
+ion-card{
+    background-color: #FAFD7CFF;
+}
+
+ion-card-subtitle{
+    text-align: right;
+}

@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="new-background-color">
+    <ion-title>Contato</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <h1 class="ion-text-center">Faça Contato</h1>
+    <form>
+      <label for="name">Nome</label>
+      <input type="text" name="name" placeholder="Digite seu nome" />
+
+      <label for="email">Email</label>
+      <input type="email" name="email" placeholder="Informe seu email" />
+
+      <label for="subject">Assunto</label>
+      <input type="text" name="subject" placeholder="Digite o assunto" />
+
+      <label for="message">Mensagem</label>
+      <textarea name="message" placeholder="Escreva sua mensagem aqui"></textarea>
+
+      <button type="submit" class="button">Enviar</button>
+    </form>
+  </div>
+</ion-content>

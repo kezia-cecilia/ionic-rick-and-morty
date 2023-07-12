@@ -1,0 +1,31 @@
+* {
+    font-family: Open Sans;
+}
+
+.new-background-color {
+    --background: #FAFD7CFF;
+}
+
+ion-card{
+    margin: 10px;
+}
+
+ion-card-title {
+    font-size: 28px;
+    color: #41b4c9;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #bfde42;
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 22px;
+    color: black;
+    text-align: center;
+}
